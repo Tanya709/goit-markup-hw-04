@@ -387,6 +387,7 @@ p {
   justify-content: center;
   align-items: center;
   border: 1px solid #8e8f99;
+  color: #8e8f99;
   border-radius: 4px;
   width: 168px;
   height: 88px;
@@ -394,16 +395,14 @@ p {
 .customers-link:hover,
 .customers-link:focus {
   border: 1px solid #404bbf;
+  color: #404bbf;
 }
 .customers-icon {
-  fill: #8e8f99;
+  fill: currentColor;
   width: 104px;
   height: 56px;
 }
-.customers-icon:hover,
-.customers-icon:focus {
-  fill: #404bbf;
-}
+
 /* =========== SECTION PORTFOLIO ===========*/
 
 .section-portfolio {
